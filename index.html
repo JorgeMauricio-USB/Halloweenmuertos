@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Carga de estilos -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- CSS de Font Awesome -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- Fuente de google -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Plantilla normalize -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- swiper -->
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <!-- Leaflet(mapa) -->    
+    <link rel="stylesheet" href="./css/leaflet.css">
+
+  <!-- Inicia para hacer una app -->
+        <!-- Icono de navegador -->
+        <link rel="shortcut icon" type="image/png" href="./images/logo.png">
+        <!-- Color de la aplicación -->
+        <meta name="theme-color" content="#6e1c9a">
+        <!-- Optimización para movil -->
+        <meta name="MobileOptimized" content="width">  
+        <meta name="HandheldFriendly" content="true">
+        <!-- Meta etiquetas PWA para Apple -->
+        <!-- <meta name="apple-mobile-web-app-capable" content="yes">  -->
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"> 
+        <link rel="apple-touch-icon" href="./images/logo.png">    
+        <link rel="apple-touch-startup-image" href="#">
+        <!-- Configuración General PWA -->
+        <!-- <link rel="manifest" href="/manifest.json"> -->
+        <link rel="manifest" href="appmanifest.webmanifest">
+  <!-- terminna para hacer una app -->
+
+
+    <!-- CSS personalizados -->
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <title>Halloween vs. Día de muertos</title>
+
+</head>
+<body>
+    <header>
+        <!--Publicidad -->
+       <section>
+        <a href="https://www.xcaret.com/es/"><img class="img-fluid" src="./images/xcaret.png"></a>
+    </section>
+        <!-- termina Publicidad -->
+        <!--Redes sociales -->
+            <section id="barra-redes">
+                <div class="container-fluid bg-secondary text-center">
+                    <div class="row justify-content-sm-between"> 
+                        <div class="col-12 col-sm-auto text-success"></div>                   
+                        <div class="col-12 col-sm-auto">
+                            <ul class="redes-sociales list-unstyled d-inline-flex">
+                                <li><a href="https://twitter.com/home?lang=es"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://www.instagram.com/?hl=es-la"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://www.youtube.com/watch?v=3fYzacWm0QI"><i class="fab fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row justify-content-md-between align-items-md-center">
+                        <div class="col-auto">
+                                <img src="./images/logo.png" alt="Logo" width="90" height="auto">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- termina Redes sociales -->
+
+        <!--Inicia menu de hamburguesa -->
+            <nav id="menu-navegacion" class="navbar navbar-dark bg-secondary navbar-expand-lg">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#contenido"><span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div id="contenido" class="collapse navbar-collapse">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="#text-1"><h4>Inicio</h4></a></li>
+                            <li class="nav-item"><a class="nav-link" href="#seccion1"><h4>Tradiciones y costumbres</h4></a></li>
+                            <li class="nav-item"><a class="nav-link" href="#seccion2"><h4>Diferencias</h4></a></li>
+                            <li class="nav-item"><a class="nav-link" href="muertos.html"><h4>Día de muertos</h4></a></li>
+                            <li class="nav-item"><a class="nav-link" href="halloween.html"><h4>Halloween</h4></a></li>
+                            <li class="nav-item"><a class="nav-link" href="#pie"><h4>Final de página</h4></a></li>
+                        </ul>                
+                    </div>
+                </div>
+            </nav> 
+        <!--termina menu de hamburguesa -->
+
+    <!-- inicia animacion letrero  título de la página -->
+    <section id="text-1" class="d-flex justify-content-center align-items-center">
+        <div class="row text-center">
+            <div class="col-12">
+                <p class="text-1">Halloween vs. Día de muertos</p>
+            </div>
+        </div>
+    </section>
+    <!--  termina animacion letrero título de la página-->
+
+<!-- Comienza Swiper -->
+
+
+<section class="swiper-container mySwiper">
+    <div class="swiper-wrapper text-center">
+        <div class="swiper-slide d-flex justify-content-center" style="background-image: url(./images/catrina.jpeg);">
+        </div>
+        <div class="swiper-slide d-flex justify-content-center" style="background-image: url(./images/ofrendaSwiper.jpeg);">
+            <div class="container">
+                <div class="row">
+                </div>
+            </div>
+    </div>
+    <div class="swiper-slide d-flex justify-content-center" style="background-image: url(./images/calabaza_1.jpeg);">
+        <div class="container">
+            <div class="row">
+            </div>
+        </div>
+</div>
+
+<div class="swiper-slide d-flex justify-content-center" style="background-image: url(./images/fantasmaswiper.jpeg);">
+</div>
+<div class="swiper-slide d-flex justify-content-center" style="background-image: url(./images/pandemuertoSwiper.jpeg);">
+    <div class="container">
+        <div class="row">
+        </div>
+    </div>
+</div>
+
+<div class="swiper-slide d-flex justify-content-center" style="background-image: url(./images/niñosswiper.jpeg);">
+</div>
+<div class="swiper-slide d-flex justify-content-center" style="background-image: url(./images/misaswiper.jpeg);">
+    <div class="container">
+        <div class="row">
+        </div>
+    </div>
+</div>
+        <div class="swiper-slide d-flex justify-content-center" style="background-image: url(./images/catrina2.jpeg);">
+            <div class="container">
+                <div class="row">
+                    <div class="slogan col-12">
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <div class="swiper-slide d-flex justify-content-center" style="background-image: url(./images/dulces_1.jpeg);">
+        <div class="container">
+            <div class="row">
+                <div class="slogan col-12">
+                </div>
+            </div>
+        </div>      
+</div>
+</section>
+<!-- Termina Swiper -->
+
+
+<!-- inicia Qué son las tradiciones y costumbres -->
+<main id="seccion1" class="container-fluid">
+    <h2 class="text-center mb-4 fw-light" >Tradiciones vs. costumbres</h2>        
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-6"> <!-- tabla de 1 fila x 2 columnas -->
+            <div class="tradicon card h-100">
+                <img src="./images/tradicion.jpeg" alt="Article image" class="card-img-top  shadow-lg">
+                <div class="card-body text-center d-grid align-items-end">
+                    <h3 class="card-title">Tradición </h3>
+                    <div class="card-text">Tradición es cada una de aquellas pautas de convivencia que una comunidad1​ considera dignas de constituirse y mantenerse de generación en generación. Después de esto sigue como una parte integral de sus usos y costumbres y se mantiene para que sean aprendidas por las nuevas generaciones, como parte indispensable del legado cultural</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-6"> <!-- tabla de 1 fila x 2 columnas -->
+            <div class="tradicon card h-100">
+                <img src="./images/arbolito3.jpeg" alt="Article image" class="card-img-top shadow-lg">
+                <div class="card-body text-center d-grid align-items-end">
+                    <h3 class="card-title">Costumbre</h3>
+                    <div class="card-text">Costumbre es un hábito o tendencia adquirida por la práctica frecuente de un acto. Las costumbres de la vida cotidiana son distintas en cada grupo social conformando su idiosincrasia distintiva, que, en el caso de grupos definidos localmente, conforman un determinado carácter nacional, regional o comercial.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<!-- termina Qué son las tradiciones y costumbres -->
+
+<!-- Inicia diferenciaas entre halloween y día de muertos-->
+<section id="seccion2" class="container">
+    <h2 class="text-center mb-4 fw-light">Diferencias entre Halloween y Día de muertos</h2>
+    <div class="row">
+        <div class="col-12 col-sm-12 col-lg-6 mb-3 mb-lg-0">
+            <div class="razones card h-100">                                      
+                <div class="card-body text-center d-grid align-items-end animation1">
+                    <i class="fas fa-skull  text-primary fa-4x text-2"></i>
+                    <h3 class="card-title">Origen</h3>
+                    <div class="card-text">El Día de Muertos tiene su origen en la época prehispánica. Las culturas antiguas como los aztecas, los mayas y los toltecas ya lo celebraban, pero la fecha era entre julio y agosto, y la celebración duraba todo un mes. Con la llegada de los españoles, la colonización y la imposición del cristianismo, la fecha se recorrió a principios de noviembre para que coincidiera con el día de Todos los Santos, que era la celebración que los españoles le hacían a sus difuntos. Es así que en México se celebra el 2 de noviembre.
+
+                        Halloween, también conocido como Noche de brujas o Noche de Víspera de Todos los Muertos es una una celebración pagana resultado de una festividad celta llamada “Samhain”, que marcaba el final de la temporada de cosecha y el inicio del invierno. Se creía que durante esa noche se abrían las puertas del “otro mundo” y las almas de los muertos podían pasar al mundo de los vivos.</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-12 col-lg-6 mb-3 mb-lg-0">
+            <div class="razones card h-100">                    
+                <div class="card-body text-center d-grid align-items-end">
+                    <i class="fas fa-utensils  text-primary fa-4x text-2"></i>
+                    <h3 class="card-title">Comida</h3>
+                    <div class="card-text">En Halloween se acostumbran hacer recetas a base de calabaza y de todos aquellos alimentos que se cosechan en la temporada de otoño. Son comunes los pasteles de calabaza, galletas con figuras alusivas y manzanas caramelizadas.
+
+                        Las calaveras de azúcar o chocolate y el pan de muerto son representativas del Día de Muertos. En el caso de las calaveras, se acostumbra regalarlas a los seres queridos con su nombre en la frente, también colocarlas en la ofrenda con el nombre de la persona que ya murió.</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-12 col-lg-6 mb-3 mb-sm-0">
+            <div class="razones card h-100">                    
+                <div class="card-body text-center d-grid align-items-end">
+                    <i class="fas fa-ghost text-primary fa-4x text-2"></i>
+                    <h3 class="card-title">Creencias</h3>
+                    <div class="card-text">En el Día de Muertos se trata de homenajear a los seres queridos difuntos, es por esto que se ponen altares u ofrendas. Algo que no puede faltar son las flores de cempasúchil, que debido a su color y olor tan llamativos, se tiene la creencia de que ayudan al alma de la persona a encontrar su hogar. Las veladoras también se colocan en la ofrenda y sirven para guiar el camino de los muertos. Poner comida y bebidas que la persona disfrutaba en vida es algo esencial, porque se les quiere dar un festín la noche que regresan. Papel picado y decoraciones coloridas es algo que no puede faltar.
+
+                        En cambio, en Halloween se cree que los espíritus regresan en forma maligna y su propósito es asustar a los vivos. Es por esto que las personas decoran sus casas y se ponen disfraces que provoquen miedo, con el objetivo de alejar a las ánimas. Los colores más usados son morado, negro y naranja.</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-12 col-lg-6">
+            <div class="razones card h-100">                    
+                <div class="card-body text-center d-grid align-items-end">
+                    <i class="fas fa-cat text-primary fa-4x text-2"></i>
+                    <h3 class="card-title">Símbolos</h3>
+                    <div class="card-text">En la Noche de Brujas lo tradicional es decorar calabazas, conocidas como Jack-O’-Lantern. Esta tradición surgió de un viejo relato popular irlandés que habla de Jack, un granjero que con su astucia logró atrapar al Diablo, pero cuando el granjero murió no pudo entrar al cielo ni al infierno, por lo que fue condenado a vivir en una llama dentro de una calabaza.
+
+                        En México la imagen representativa por excelencia es La Catrina, que es una calavera pero con ropa y maquillaje de colores. Fue creada por José Guadalupe Posada y bautizada por Diego Rivera. Representaba a los mexicanos que pretendían ser europeos y renegaban su propia raza, herencia y cultura.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- termina diferencias entre halloween y día de muertos-->
+
+<!--footer-->
+
+<footer id="pie" class="small bg-secondary text-success">
+    <div class="container py-3 py-sm-5">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-3">
+                <h6>Enlaces rápidos</h6>
+                <ul class="list-unstyled">
+                    <li><a href="#text-1">Inicio</a></li>
+                    <li><a href="#seccion1">Tradiciones y Costumbres</a></li>
+                    <li><a href="#seccion2">Diferencias</a></li>                
+                    <li><a href="muertos.html">Día de muertos</a></li>
+                    <li><a href="halloween.html">Halloween</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+                <h6>Síguenos</h6>
+                <ul class="list-unstyled">
+                    <li><a href="https://twitter.com/home?lang=es"><i class="fab fa-fw fa-twitter"></i> Twitter</a></li>  
+                    <li><a href="https://www.facebook.com/"><i class="fab fa-fw fa-facebook"></i> Facebook</a></li>
+                    <li><a href="https://www.instagram.com/?hl=es-la"><i class="fab fa-fw fa-instagram"></i> Instagram</a></li>                
+                    <li><a href="https://www.youtube.com/watch?v=3fYzacWm0QI"><i class="fab fa-fw fa-youtube"></i> YouTube</a></li>                
+                </ul>
+            </div>
+        </div>
+        <ul class="list-inline mt-2 mb-0 text-center">
+            <li class="list-inline-item">&copy; 2021 USB Design Team</li>
+            <li class="list-inline-item">All rights reserved.</li>
+        </ul>
+    </div>
+</footer>
+<!--footer-->
+
+
+
+        <!-- script de j query -->
+        <script src="./js/jquery-3.6.0.min.js"></script>
+        <!-- Carga de scripts JS -->
+        <script src="./js/bootstrap.bundle.min.js"></script>    
+        <!--script del swiper -->
+        <script src="./js/swiper-bundle.js"></script>
+        <!--scrip del mapa de leaflet -->
+        <script src="./js/leaflet.js"></script>
+        <!--scrip de animate-->
+        <script src="./js/anime.min.js"></script>
+         <!--script de mis scripts -->
+        <script src="./js/mis-scripts.js"></script>
+        <header>
+    </body>
+    </html>
